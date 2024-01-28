@@ -1,0 +1,103 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+
+.container h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.container .subtitle {
+    margin-top: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.container .amount-box {
+    position: relative;
+}
+
+.container .amount-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.container .select-box {
+    margin-bottom: 20px;
+}
+
+.container select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #fff; /* Optional: add a border bottom effect */
+}
+
+.container select:focus {
+    border-bottom: 2px solid #fff; /* Optional: add a thicker border bottom on focus */
+}
+
+.container p {
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+}
+
+.container .button-class {
+    text-align: center;
+}
+
+.container button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color: #2980b9;
+}
+
+.container .display-result {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}

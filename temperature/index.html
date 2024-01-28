@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Temparature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Temperature Converter</h2>
+        <h4 class="subtitle">Tugas Oprec EXERCISE 2024<br>
+            Jonathan Frederick Kosasih<br>
+            Teknik Komputer 2023</h4>
+        <form id="conversionForm">
+            <div class="amount-box">
+            <input type="number" name="amount" id="amount" placeholder="Enter amount" required>
+            </div>
+
+            <div class="select-box">
+            <p>Choose starting temperature:</p>
+            <select class="form-select-start" aria-label="Default select example">
+                <option value="C" selected>Celcius</option>
+                <option value="R">Reamur</option>
+                <option value="F">Fahrenheit</option>
+                <option value="K">Kelvin</option>
+            </select>
+            </div>
+    
+            <div class="select-box">
+            <p>Convert to:</p>
+            <select class="form-select-end" aria-label="Default select example">
+                <option value="C">Celcius</option>
+                <option value="R">Reamur</option>
+                <option value="F" selected>Fahrenheit</option>
+                <option value="K">Kelvin</option>
+            </select>
+            </div>
+    
+            <div class="button-class">
+            <button type="button" class="btn btn-primary mt-5">Convert</button>
+            </div>
+
+            <p class="display-result">Results will show here</p>
+        </form>
+        
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
